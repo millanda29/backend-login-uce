@@ -7,7 +7,7 @@ const port = 3001;
 
 // Configuración de CORS para permitir solicitudes desde http://localhost:3000
 app.use(cors({
-    origin: 'http://localhost:3000',
+    origin: 'https://frontend-login-uce-299f28cf90d6.herokuapp.com/',
     credentials: true // Habilita el intercambio de cookies y encabezados de autenticación
 }));
 
